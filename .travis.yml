@@ -1,0 +1,15 @@
+script:
+- |
+  git config user.name "Cypherman1"
+  git config user.email "tungnt.finance@gmail.com"
+  git remote remove origin
+  git remote add origin https://$GITHUB_API_KEY@github.com/Cypherman1/cypherblock-eos-wiki.git > /dev/null 2>&1
+  git remote add upstream https://$GITHUB_API_KEY@github.com/Cypherman1/cypherblock-eos.wiki.git > /dev/null 2>&1
+  git fetch origin
+  git fetch upstream
+  git merge upstream/master --no-edit
+  git push origin HEAD:master > /dev/null 2>&1
+  git push upstream HEAD:master > /dev/null 2>&1
+env:
+  matrix:
+    secure: sGbjgM+RXUNnLl0sWMVwb0bXzIOerd7idRb1cHsBj2yQpHWMBV5wm8BW9f/dBX4TYuyTbYBagWEjv8OPppRbog6aTOOmUpjPRJOMMWRrwGmk0novC96kMGqpLN+uPq31y/seqj8rbcPtRw5i1FsXBxuMi1s9veHwGGaHIbqVdbrYYz//6nN+3uoOSjWjIrbrIgrVTfqBca7bRhNWSlFBtYGinlyDgzgF1uFkFLU808kpgM5GeS/7l4d7wbdt18IjpXLBek5gWL1pl+3tbNhYdrWBo279fHD/CK8HEjbCOH5umnedbXZ3usSc5ruiqU9S/dUmOCltv1fWRPijw6r0ayKQweDwm6S1nfbu57wHBMG2yKK8iK+y2FgWgllRFruCImS/+QYyuLa8Ov4msSC0ts/xTq6gNfNuY7DGjMsdm9kJ9H6VhFiXyfOi+0hENp4By3ntt9jZh9aAIBtG8bMEShhnJ1EGhd9uRE6GVh3DwJ9LHQFMDHZSv24Wgn7IdzBQUsnF+D7hfGgBBr9Oaq383zsrsc0uAzKSK/TqnM4tdzB8wZqYTaLBWeVpKCm+MlGKDACcqYmvy+nRL/cswPaN3ahzASAPYT9oi8GCsEHr4i5iN0HYsL5V8ckFHHLyMWdNdmCza1RUu0BhQ2ZiUr7juaZFX9RWoRqhoE4n0HROhOU=
