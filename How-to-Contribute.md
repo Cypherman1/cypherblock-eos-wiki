@@ -1,14 +1,15 @@
 # Contributing to Cypherblock
 
-There are many ways to contribute to the Cypherblock project: logging bugs, submitting pull requests, reporting issues, and creating suggestions.
+Welcome, and thank you for your interest in contributing to Cypherblock!
 
+Here are steps by steps guiding you to contribute your code to Cypherblock repo
 
 ## Prerequisites
 
 You'll need the following tools to download and build Cypherblock locally:
 
 - [Git](https://git-scm.com)
-- [Node.JS](https://nodejs.org/en/), version `>= 10.10.0`
+- [Node.JS](https://nodejs.org/en/), version `>=10.10.0 <=11.11.0`
 - [Yarn](https://yarnpkg.com/en/), follow the [installation guide](https://yarnpkg.com/en/docs/install)
 - [VSCode](https://code.visualstudio.com/) (Recommened)
   - [ESLint](https://github.com/Microsoft/vscode-eslint)
@@ -26,16 +27,6 @@ First, fork the [Cypherblock repository](https://github.com/Cypherman1/cypherblo
 ```
 git clone https://github.com/<<<your-github-account>>>/cypherblock-eos.git
 ```
-
-Occassionally you will want to merge changes in the upstream repository (the official Cypherblock repo) with your fork.
-
-```
-cd cypherblock-eos
-git checkout master
-git pull https://github.com/Cypherman1/cypherblock-eos master
-```
-
-Manage any merge conflicts, commit them, and then commit them to your fork.
 
 ### Build
 
@@ -95,8 +86,10 @@ git checkout master
 git pull https://github.com/Cypherman1/cypherblock-eos master
 ```
 
-Merge your branches to master, manage any merge conflicts, commit them, push to your fork and create the pull request.
+Merge your branches to master, manage any merge conflicts, commit them, push to your fork and `Create the pull request`. 
 
-## Discussion Etiquette
+Ensure the changesets you introduced are included. Fill in some details about your potential contributions including a meaningful title. The Cypherblock core team will be notified about your submission.
 
-In order to keep the conversation clear and transparent, please limit discussion to English and keep things on topic with the issue. Be considerate to others and try to be courteous and professional at all times.
+# Thank You!
+
+Your contributions to open source, large or small, make great projects like this possible. Thank you for taking the time to contribute.
