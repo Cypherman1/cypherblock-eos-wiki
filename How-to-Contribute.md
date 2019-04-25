@@ -15,10 +15,9 @@ You'll need the following tools to download and build Cypherblock locally:
   - [ESLint](https://github.com/Microsoft/vscode-eslint)
   - [Prettier - Code formatter](https://github.com/prettier/prettier-vscode)
 
-
 ## Setting Up a Development Environment
 
-To prepare for contributing to Cypherblock project, you'll need to setup your own local development environment: Get the sources, build it, config some parameters, and run it locally. 
+To prepare for contributing to Cypherblock project, you'll need to setup your own local development environment: Get the sources, build it, config some parameters, and run it locally.
 
 ### Getting the sources
 
@@ -68,6 +67,7 @@ Give a minute for the server to start and go to [http://localhost:3000](http://l
 Now, It's time to write your code and contribute to Cypherblock repo
 
 ### Work Branches
+
 Before writing your code, you should create a personal fork and create feature branches there when you need them. This keeps the main repository clean and your personal workflow cruft out of sight.
 
 ```
@@ -76,6 +76,7 @@ git checkout -b your_branch_name
 
 ### Write your code
 
+:honeybee: :ok_hand:
 
 ### Pull Requests
 
@@ -86,7 +87,15 @@ git checkout master
 git pull https://github.com/Cypherman1/cypherblock-eos master
 ```
 
-Merge your branches to master, manage any merge conflicts, commit them, push to your fork and `Create the pull request`. 
+Merge your branch to master, manage any conflicts, commit them and push to your fork
+
+```
+git checkout your_branch_name
+git rebase master
+git push --set-upstream origin your_branch_name
+```
+
+Finally, go to GitHub and [Make a Pull Request](https://help.github.com/en/articles/creating-a-pull-request) :D
 
 Ensure the changesets you introduced are included. Fill in some details about your potential contributions including a meaningful title. The Cypherblock core team will be notified about your submission.
 
