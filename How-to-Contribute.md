@@ -21,7 +21,7 @@ To prepare for contributing to Cypherblock project, you'll need to setup your ow
 
 ### Getting the sources
 
-First, fork the [Cypherblock repository](https://github.com/Cypherman1/cypherblock-eos) so that you can make a pull request. Then, clone your fork locally:
+First, [fork](https://help.github.com/en/articles/fork-a-repo) the [Cypherblock repository](https://github.com/Cypherman1/cypherblock-eos) so that you can make a pull request. Then, clone your fork locally:
 
 ```
 git clone https://github.com/<<<your-github-account>>>/cypherblock-eos.git
