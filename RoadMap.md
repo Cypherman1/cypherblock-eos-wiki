@@ -8,17 +8,18 @@ We plan to build folowing features on cypherblock:
 
 - Votting portal
 - Wallet
+- Improving SEO
 
 ## Side chains support
 
-Our roadmap covers the following side chains:
+Our roadmap is to support following side chains:
 
 - Telos
 - Worbli
 
 ## Documentation
 
-- [x] Make it easier for everyone to find their way around. Buils our documentation, wiki.
+- [x] Make it easier for everyone to find their way around. Build our documentation, wiki.
 - :runner: Create overview videos.
 
 ## Summary
